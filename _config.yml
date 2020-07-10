@@ -15,7 +15,7 @@ timezone: ''
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://github.com/cwenz1996/seaofignorance.github.io.git
 root: /seaofignorance.github.io/
-permalink: :year/:month/:day/:title/
+permalink: /post/:uuid/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -99,5 +99,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/cwenz1996/seaofignorance.github.io.git
+  repo: git@github.com:cwenz1996/seaofignorance.github.io.git
   branch: master
